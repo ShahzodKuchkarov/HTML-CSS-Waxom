@@ -1,0 +1,198 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 600;
+    color: #555;
+}
+
+.start {
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway';
+    padding: 15px 35px;
+}
+
+/* .header {
+    height: 100vh;
+}
+ */
+
+.header .menu-top {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.header .menu-top .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header .menu-top .navbar-nav .nav-link:hover {
+    color: #c7b299;
+}
+
+.header .menu-top .navbar-toggler {
+    border: 1px solid #fff;
+}
+
+.header .carousel .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    object-position: center center;
+}
+
+.header .carousel .carousel-item {
+    height: 100%;
+    min-width: 600px;
+}
+
+.header .carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.header .carousel .carousel-indicators li.active {
+    height: 12px;
+    width: 12px;
+    background: transparent;
+    border: 2px solid #dec1ad;
+}
+
+.header .carousel .carousel-indicators {
+    align-items: center;
+}
+
+.header .carousel .carousel-caption h5 {
+    font-size: 36px;
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 500;
+}
+
+.header .carousel .carousel-caption h1 {
+    font-size: 52px;
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 800;
+}
+
+.header .carousel .carousel-caption {
+    bottom: 300px;
+}
+
+.services {
+    padding: 80px 0;
+}
+.services .fa {
+    font-size: 40px;
+}
+.services .fa:hover,
+.services hr:hover,
+.services h4:hover {
+    color: #c7b299;
+}
+
+.services hr {
+    height: 3px;
+    width: 70px;
+}
+.browser {
+    padding-top: 84px;
+    background: #fbfaf8;
+}
+
+.waxom {
+    background: linear-gradient(to right, #211b19, #4e3427);
+    padding: 30px 0;
+}
+.waxom h3 {
+    font-size: 28px;
+}
+.projects {
+    padding-top: 82px;
+    padding-bottom: 80px;
+}
+
+.projects .nav-pills .nav-link {
+    border: 1px solid #ebebeb;
+    padding: 5px 15px;
+    margin: 0 5px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.projects .nav-pills {
+    margin-bottom: 20px;
+}
+
+.projects .nav-pills .nav-link.active {
+    background: #998675;
+    color: #fff;
+}
+
+.projects .card .fa {
+    font-size: 20px;
+}
+
+.projects .card .fa-link {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.projects .card .fa-search {
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.projects .card .fa-caret-up {
+    position: absolute;
+    font-size: 60px;
+    color: #fbfaf8;
+    top: 190px;
+    left: 20px;
+}
+
+.projects .card img {
+    height: 230px;
+}
+.projects .card .card-body {
+    background: #fbfaf8;
+}
+.projects .card:hover .fa-search, 
+.projects .card:hover .fa-link {
+    opacity: 1;
+}
+.projects .card:hover .card-body{
+background: #362f2d;
+}
+.projects .card:hover .fa-caret-up{
+    color: #362f2d;
+}
